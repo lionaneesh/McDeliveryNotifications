@@ -1,0 +1,22 @@
+{
+  "name": "McDelivery Notifications",
+  "version": "1.0",
+  "description":
+    "McDelivery notifcations on desktop using chrome.",
+  "icons": {"lg": "64.png"},
+  "browser_action": {
+     "default_icon": "64.png",
+     "default_popup": "popup.html"
+   },
+  "permissions": [
+    "notifications",
+    "storage",
+     "https://www.mcdeliveryonline.com/indelhi/*"
+  ],
+  "background": { "scripts": ["background.js", "jquery.js"] },
+  "manifest_version": 2,
+
+  "web_accessible_resources": [
+    "48.png"
+  ]
+}
