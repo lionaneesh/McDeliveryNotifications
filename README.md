@@ -1,2 +1,2 @@
 # McDeliveryNotifications
-<http://anee.me/>
+<http://anee.me/mcdelivery-desktop-notifications/>
